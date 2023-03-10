@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <link rel="stylesheet" href="css\bootstrap.min.css">
+    <!---<link rel=”stylesheet” href=”https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css”rel=”nofollow” integrity=”sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm” crossorigin=”anonymous”>    <script src=”https://code.jquery.com/jquery-3.2.1.slim.min.js” integrity=”sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN” crossorigin=”anonymous”></script>
+
+    <script src=https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js integrity=”sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q” crossorigin=”anonymous”></script>
+    
+    <script src=”https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js” integrity=”sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl” crossorigin=”anonymous”></script>  --->  
+    <title>bootstrap doc</title>
+</head>
+<style>
+    .col{
+        padding: 10px;
+        border: 1px solid rgb(68, 64, 64);
+    }
+    
+</style>
+<body>
+    <div class="container text-center">
+        <div class="row bg-primary text-white ">
+            <div class="col">Form</div>
+            <div class="col">Table</div>
+        </div>
+        <div class="row bg-secondary text-white">
+            <div class="col">
+
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-default">Name:</span>
+                    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                  </div>
+
+                  <div class="input-group mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-default">Phone No.</span>
+                    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                  </div>
+
+                  <div class="input-group mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-default">Date of Birth</span>
+                    <input type="date" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                  </div>
+
+
+                  <div class="input-group">
+                    <span class="input-group-text">Address</span>
+                    <textarea class="form-control" aria-label="With textarea"></textarea>
+                  </div>
+
+                  <select class="form-select" aria-label="Default select example">
+                    <option selected>Select your city</option>
+                    <option value="1">Gurugram</option>
+                    <option value="2">Delhi</option>
+                    <option value="3">Noida</option>
+                  </select>
+
+                  <p>Gender :</p>
+                  <div class="form-check bg-white text-black"> 
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                      Male
+                    </label>
+                  </div>
+                  
+                                 
+                  <div class="form-check bg-white text-black">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
+                    <label class="form-check-label" for="flexRadioDefault1">
+                      Female
+                    </label>
+                  </div>
+                  <p>Hobbies :</p>
+                  <div class="form-check bg-white text-black">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" checked>
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Dancing
+                    </label>
+                  </div>
+                  <div class="form-check bg-white text-black">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" checked>
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Singing
+                    </label>
+                  </div>
+                  <div class="form-check bg-white text-black">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" checked>
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Painting
+                    </label>
+                  </div>
+                  <div class="form-check bg-white text-black">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" checked>
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Drawing
+                    </label>
+                  </div>
+                  <button type="button" class="btn btn-light">Submit</button>
+                  <button type="button" class="btn btn-light">Reset</button>
+
+            </div>
+            <div class="col">
+              
+              <table class="table table-light">
+                <thead>
+                  <tr>
+                    <th scope="col">Sno.</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Phno.</th>
+                    <th scope="col">Dob</th>
+                    <th scope="col">Interest</th>
+
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Akash</td>
+                    <td>123-4-567</td>
+                    <td>12/12/1996</td>
+                    <td>
+                      <ul type="None">
+                        <li>Music</li>
+                        <li>Dance</li>
+                      </ul>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Parul</td>
+                    <td>12345-456</td>
+                    <td>6/02/2001</td>
+                    <td>
+                      <ul type="None">
+                        <li>painting</li>
+                        <li>Travelling</li>
+                      </ul>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
